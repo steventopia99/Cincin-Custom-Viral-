@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cincin Custom Korea Viral</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- PROMO TERBATAS -->
+  <div class="promo-banner">
+    PROMO TERBATAS! Hanya Hari Ini!
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Cincin Custom Model Korea Viral</h1>
+    <p>Desain Eksklusif, Elegan, dan Personal</p>
+  </div>
+
+  <!-- PRODUK -->
+  <div class="product-gallery">
+    <img src="1.jpg" alt="Cincin Custom 1">
+    <img src="2.jpg" alt="Cincin Custom 2">
+    <img src="3.jpg" alt="Cincin Custom 3">
+  </div>
+
+  <!-- HARGA -->
+  <div class="pricing">
+    <div class="old-price">Rp 239.000</div>
+    <div class="new-price">Rp 139.000</div>
+    <div class="cod-banner">BISA BAYAR DI TEMPAT (COD)</div>
+  </div>
+
+  <!-- DESKRIPSI -->
+  <div class="description">
+    <h2>Kenapa Pilih Cincin Custom Korea?</h2>
+    <ul>
+      <li>Material premium tahan lama & anti karat</li>
+      <li>Desain viral ala Korea: Inisial / Kupu-Kupu</li>
+      <li>Hadiah istimewa untuk pasangan atau sahabat</li>
+      <li>100% Handmade sesuai pesanan</li>
+      <li>Bisa Bayar di Tempat (COD) Aman & Mudah</li>
+    </ul>
+  </div>
+
+  <!-- FORM -->
+  <div class="order-form">
+    <h2>Pesan Sekarang</h2>
+    <form id="orderForm">
+      <label>Nama Lengkap</label>
+      <input type="text" name="nama" required>
+
+      <label>Nomor WA Aktif</label>
+      <input type="tel" name="wa" required>
+
+      <label>Alamat Lengkap (Provinsi, Kab, Desa, dll)</label>
+      <textarea name="alamat" rows="3" required></textarea>
+
+      <label>Tipe Cincin</label>
+      <select name="tipe" id="tipeSelect" required>
+        <option value="">Pilih</option>
+        <option value="Inisial">Inisial</option>
+        <option value="Kupu-Kupu">Kupu-Kupu</option>
+      </select>
+
+      <div id="inisialField">
+        <label>Inisial Cincin (A-Z)</label>
+        <input type="text" name="inisial" maxlength="1">
+      </div>
+
+      <label>Jumlah Pesanan (1-10)</label>
+      <input type="number" name="jumlah" min="1" max="10" required>
+
+      <button type="submit" class="wa-button">Pesan Sekarang</button>
+    </form>
+  </div>
+
+  <!-- TESTIMONI -->
+  <div class="testimonials">
+    <h2>Testimoni Pelanggan</h2>
+    <div class="testimonial-gallery">
+      <img src="4.jpg" alt="Testimoni 1">
+      <img src="5.jpg" alt="Testimoni 2">
+      <img src="6.jpg" alt="Testimoni 3">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <a href="#orderForm" class="sticky-order-button">Pesan Sekarang</a>
+</body>
+</html>

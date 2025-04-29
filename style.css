@@ -1,0 +1,179 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+/* Promo Banner */
+.promo-banner {
+  background: linear-gradient(90deg, #ffd700, #ffcc00);
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px;
+  font-size: 1.2rem;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #b8860b;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1rem;
+}
+
+/* Produk */
+.product-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.product-gallery img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Harga */
+.pricing {
+  text-align: center;
+  margin: 20px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 1rem;
+  color: gray;
+}
+
+.new-price {
+  font-size: 1.8rem;
+  color: #b8860b;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.cod-banner {
+  margin-top: 10px;
+  background: #b8860b;
+  color: white;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* Deskripsi */
+.description {
+  padding: 20px;
+}
+
+.description h2 {
+  color: #b8860b;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.description ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 1rem;
+}
+
+/* Form Order */
+.order-form {
+  padding: 20px;
+  background: #fff;
+}
+
+.order-form h2 {
+  color: #b8860b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.order-form input,
+.order-form textarea,
+.order-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Tombol WA */
+.wa-button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Testimoni */
+.testimonials {
+  padding: 20px;
+  background: #fff8f0;
+}
+
+.testimonials h2 {
+  text-align: center;
+  color: #b8860b;
+  margin-bottom: 20px;
+}
+
+.testimonial-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonial-gallery img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.sticky-order-button {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+}
+
+.sticky-order-button:hover {
+  background-color: #1ebf55;
+}
